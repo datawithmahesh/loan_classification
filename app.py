@@ -9,7 +9,7 @@ st.image("https://pianalytix.com/wp-content/uploads/2020/12/Salary-Prediction-Mo
 load_model= pk.load(open('Loan.pickle','rb'))
 
 #input data from user
-st.title("salary prediction system")
+st.title("loan classification system")
 income = st.number_input("Enter your salary")
 home_ownership = st.selectbox("Home_Ownership =", ["MORTGAGE", "OTHER", "OWN", "RENT"])
 loan_amount = st.number_input("Enter your loan amount")
