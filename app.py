@@ -63,3 +63,9 @@ if st.button("predict"):
         st.write("Congratulations!!, you got the loan")
     else:
         st.write("Sorry!!, you are not qualified for the loan")
+
+
+
+
+
+st.write("This model is done by Mahesh Thapa")
