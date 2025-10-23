@@ -78,7 +78,7 @@ body {
 </style>
 """, unsafe_allow_html=True)
 
-# --- Title Section ---
+# -- Title Section --
 st.markdown('<div class="title-card"><h1>💰 Loan Classification System</h1></div>', unsafe_allow_html=True)
 
 # --- Image ---
